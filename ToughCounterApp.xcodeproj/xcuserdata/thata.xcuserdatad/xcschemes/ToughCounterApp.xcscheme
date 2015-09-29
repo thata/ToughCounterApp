@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7AEB541B1BBA942000B73B02"
+               BuildableName = "ToughCounterApp.app"
+               BlueprintName = "ToughCounterApp"
+               ReferencedContainer = "container:ToughCounterApp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7AEB542F1BBA942000B73B02"
+               BuildableName = "ToughCounterAppTests.xctest"
+               BlueprintName = "ToughCounterAppTests"
+               ReferencedContainer = "container:ToughCounterApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7AEB543A1BBA942000B73B02"
+               BuildableName = "ToughCounterAppUITests.xctest"
+               BlueprintName = "ToughCounterAppUITests"
+               ReferencedContainer = "container:ToughCounterApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7AEB541B1BBA942000B73B02"
+            BuildableName = "ToughCounterApp.app"
+            BlueprintName = "ToughCounterApp"
+            ReferencedContainer = "container:ToughCounterApp.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7AEB541B1BBA942000B73B02"
+            BuildableName = "ToughCounterApp.app"
+            BlueprintName = "ToughCounterApp"
+            ReferencedContainer = "container:ToughCounterApp.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7AEB541B1BBA942000B73B02"
+            BuildableName = "ToughCounterApp.app"
+            BlueprintName = "ToughCounterApp"
+            ReferencedContainer = "container:ToughCounterApp.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
